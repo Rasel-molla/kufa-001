@@ -1,0 +1,370 @@
+
+/* DEMO-SPECIFIC STYLES */
+
+
+.text_block {
+    position: absolute;
+  
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  .ltr {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: bold;
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+    opacity: 0.2;
+    animation-direction: alternate;
+  }
+  .ltr1 {
+    color: #ffcdff;
+    text-shadow: -2px 0 5px rgba(107, 65, 107, 0.8), 2px 0 5px rgba(110, 69, 110, 0.8), 0 -2px 5px rgba(116, 46, 116, 0.8), 0 2px 5px rgba(255,205,255,0.8), -2px -2px 5px rgba(255,205,255,0.8), 2px 2px 5px rgba(255,205,255,0.8), 2px -2px 5px rgba(255,205,255,0.8), -2px 2px 5px rgba(255,205,255,0.8);
+    animation-name: openAnimO;
+  }
+  .ltr2 {
+    color: #cdffff;
+    text-shadow: -2px 0 5px rgba(63, 133, 133, 0.8), 2px 0 5px rgba(58, 119, 119, 0.8), 0 -2px 5px rgba(42, 121, 121, 0.8), 0 2px 5px rgba(205,255,255,0.8), -2px -2px 5px rgba(205,255,255,0.8), 2px 2px 5px rgba(205,255,255,0.8), 2px -2px 5px rgba(205,255,255,0.8), -2px 2px 5px rgba(205,255,255,0.8);
+    animation-name: openAnimP;
+  }
+  .ltr3 {
+    color: #ffffcd;
+    text-shadow: -2px 0 5px rgba(83, 83, 23, 0.8), 2px 0 5px rgba(150, 150, 47, 0.8), 0 -2px 5px rgba(138, 138, 71, 0.8), 0 2px 5px rgba(255,255,205,0.8), -2px -2px 5px rgba(255,255,205,0.8), 2px 2px 5px rgba(255,255,205,0.8), 2px -2px 5px rgba(255,255,205,0.8), -2px 2px 5px rgba(255,255,205,0.8);
+    animation-name: openAnimE;
+  }
+  .ltr4 {
+    color: #e1e1cd;
+    text-shadow: -2px 0 5px rgba(134, 134, 65, 0.8), 2px 0 5px rgba(78, 78, 40, 0.8), 0 -2px 5px rgba(160, 160, 70, 0.8), 0 2px 5px rgba(225,225,205,0.8), -2px -2px 5px rgba(225,225,205,0.8), 2px 2px 5px rgba(225,225,205,0.8), 2px -2px 5px rgba(225,225,205,0.8), -2px 2px 5px rgba(225,225,205,0.8);
+    animation-name: openAnimN;
+  }
+  .ltr5 {
+    color: #e1e1cd;
+    text-shadow: -2px 0 5px rgba(41, 160, 87, 0.8), 2px 0 5px rgba(34, 165, 66, 0.8), 0 -2px 5px rgba(51, 187, 62, 0.8), 0 2px 5px rgba(225,225,205,0.8), -2px -2px 5px rgba(225,225,205,0.8), 2px 2px 5px rgba(225,225,205,0.8), 2px -2px 5px rgba(225,225,205,0.8), -2px 2px 5px rgba(225,225,205,0.8);
+    animation-name: openAnimN;
+  }
+  @-moz-keyframes openAnimO {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-webkit-keyframes openAnimO {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-o-keyframes openAnimO {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @keyframes openAnimO {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-moz-keyframes openAnimP {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-webkit-keyframes openAnimP {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-o-keyframes openAnimP {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @keyframes openAnimP {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-moz-keyframes openAnimE {
+    0% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 0.2;
+    }
+    60% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-webkit-keyframes openAnimE {
+    0% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 0.2;
+    }
+    60% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-o-keyframes openAnimE {
+    0% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 0.2;
+    }
+    60% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @keyframes openAnimE {
+    0% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 0.2;
+    }
+    60% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-moz-keyframes openAnimN {
+    0% {
+      opacity: 0.2;
+    }
+    60% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-webkit-keyframes openAnimN {
+    0% {
+      opacity: 0.2;
+    }
+    60% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @-o-keyframes openAnimN {
+    0% {
+      opacity: 0.2;
+    }
+    60% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @keyframes openAnimN {
+    0% {
+      opacity: 0.2;
+    }
+    60% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 1;
+    }
+    92% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter .aa {
+    color: rgb(227, 236, 227);
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(61, 58, 50); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(53, 52, 51) }
+  }
+
+
+
